@@ -6,8 +6,6 @@ metadata:
   name: trung
   namespace: default
 spec:
-  dependsOn:
-    - name: postgres-operator
   allowedSourceRanges: []
   databases:
     trung: trung
