@@ -46,3 +46,9 @@ kubectl --context=kind-trung port-forward svc/postgres-operator-ui 8081:80
 ```
 
 and access via http://localhost:8081
+
+# Thanos stack via kube-prometheus
+
+https://github.com/prometheus-operator/kube-prometheus
+
+Can expose grafana service
